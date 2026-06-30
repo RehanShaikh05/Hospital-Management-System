@@ -186,9 +186,9 @@ public class NEW_PATIENT extends JFrame implements ActionListener {
 //        setUndecorated(true);
         setSize(850,550);
         setLayout(null);
-        setLocation(300,250);
+        setLocationRelativeTo(null);   // Opens exactly in the center
+        setResizable(false);           // Optional: prevents resizing
         setVisible(true);
-
     }
 
 

@@ -69,8 +69,9 @@ public class Login extends JFrame implements ActionListener {
 
         getContentPane().setBackground(new Color(109, 164, 171));
         setSize(750,300);
-        setLocation(280,210);
         setLayout(null);
+        setLocationRelativeTo(null);   // Opens exactly in the center
+        setResizable(false);           // Optional: prevents resizing
         setVisible(true);
 
     }

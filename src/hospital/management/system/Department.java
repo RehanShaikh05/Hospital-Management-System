@@ -57,7 +57,8 @@ public class Department extends JFrame {
 //        setUndecorated(true);
         setSize(700,500);
         setLayout(null);
-        setLocation(350,250);
+        setLocationRelativeTo(null);   // Opens exactly in the center
+        setResizable(false);           // Optional: prevents resizing
         setVisible(true);
 
     }

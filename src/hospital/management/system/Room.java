@@ -78,7 +78,8 @@ public class Room extends JFrame {
 //        setUndecorated(true);
         setSize(900,600);
         setLayout(null);
-        setLocation(300,230);
+        setLocationRelativeTo(null);   // Opens exactly in the center
+        setResizable(false);           // Optional: prevents resizing
         setVisible(true);
     }
     public static void main(String[] args) {
